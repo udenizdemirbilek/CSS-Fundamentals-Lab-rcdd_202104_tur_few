@@ -3,3 +3,18 @@ body {
   height: 100%;
   margin: 0;
 }
+section#details{        
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: red;
+}
+section#details div{
+  text-align: center;
+}
+header{
+  text-align: center;
+}
+section#featured-property{
+  text-align: center;
+}
