@@ -16,5 +16,19 @@ header{
   text-align: center;
 }
 section#featured-property{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header nav a{
+  background-color: gray;
+  padding: 0 10px 0 10px;
+}
+section#featured-property p{
+max-width: 800px;
+text-align: center;
+}
+figcaption{
   text-align: center;
 }
